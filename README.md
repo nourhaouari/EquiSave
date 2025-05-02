@@ -20,6 +20,12 @@
 - **API IA :** Flask
 - **Versioning :** Git & GitHub
 
+
+## Modèle d’intelligence artificielle utilisé
+Le système de prédiction d’EquiSave repose sur un réseau de neurones artificiels entraîné à l’aide de l’algorithme MLPClassifier (Multi-Layer Perceptron) de la bibliothèque Scikit-learn. Ce modèle est supervisé et a été entraîné sur un jeu de données contenant diverses caractéristiques techniques des équipements médicaux (heures d’utilisation, température, erreurs, état logiciel, etc.). L’objectif du modèle est de prédire de manière automatique et fiable l’état de fonctionnement d’un appareil, parmi plusieurs classes possibles : Operational, Maintenance_Needed, Warning ou Critical_Error.
+
+Avant l'entraînement, les données ont été nettoyées, standardisées et les variables catégorielles encodées pour optimiser la performance du réseau. Le modèle a ensuite été sauvegardé avec son scaler dans un format .pkl, et intégré à l'application à travers une API Flask qui communique avec l’interface PHP via des requêtes POST.
+
 ## Fonctionnalités principales
 
 - Authentification : Enregistrement et connexion des utilisateurs.
