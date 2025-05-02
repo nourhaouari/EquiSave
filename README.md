@@ -58,7 +58,7 @@ equisave/
    - Accédez à `http://localhost/equisave/login.php` via votre navigateur.
 
 3. **API IA :**
-   - Lancez le fichier `app.py` dans un environnement Python :
+   - Lancez le fichier `appi.py` dans un environnement Python :
      ```
      python app.py
      ```
