@@ -79,5 +79,5 @@ Ce projet a été réalisé dans le cadre d’un module académique avec pour ob
 
 ## Auteur
 
-Développé par Nour Haouari Rania Guesmi et Nourhene Bellazreg – Étudiantes en Cycle Ingenieur en genie biomedical TTIS
+Développé par Nour Haouari , Rania Guesmi et Nourhene Bellazreg – Étudiantes en Cycle Ingenieur en genie biomedical TTIS
 
