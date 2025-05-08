@@ -66,7 +66,7 @@ equisave/
 3. **API IA :**
    - Lancez le fichier `appi.py` dans un environnement Python :
      ```
-     python app.py
+     python appi.py
      ```
 
 ## Exemple de prédiction IA
